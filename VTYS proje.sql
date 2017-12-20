@@ -1,9 +1,11 @@
 --------------------------------------------------------
---  File created - «ar˛amba-Aral˝k-20-2017   
+--  File created - √áar√æamba-Aral√Ωk-20-2017   
 --------------------------------------------------------
 --------------------------------------------------------
 --  DDL for Table T_FIS
 --------------------------------------------------------
+-- FURKAN kullanƒ±cƒ±sƒ±na g√∂re export edilmi≈ütir
+-- Farklƒ± bir kullanƒ±cƒ±dan √ßalƒ±≈ütƒ±rmak i√ßin FURKAN karakterleri deƒüi≈ümelidir.
 
   CREATE TABLE "FURKAN"."T_FIS" 
    (	"NO" NUMBER, 
@@ -197,7 +199,7 @@ Insert into FURKAN.T_FIS (NO,SATIS_NO,URUN_NO) values ('12','14','511');
 Insert into FURKAN.T_FIS (NO,SATIS_NO,URUN_NO) values ('13','14','8');
 REM INSERTING into FURKAN.T_GOREV
 SET DEFINE OFF;
-Insert into FURKAN.T_GOREV (NO,ISIM) values ('1','yˆnetici');
+Insert into FURKAN.T_GOREV (NO,ISIM) values ('1','y√∂netici');
 Insert into FURKAN.T_GOREV (NO,ISIM) values ('2','kasiyer');
 Insert into FURKAN.T_GOREV (NO,ISIM) values ('3','Manav');
 Insert into FURKAN.T_GOREV (NO,ISIM) values ('4','temizlik');
@@ -209,21 +211,21 @@ REM INSERTING into FURKAN.T_KAMPANYA
 SET DEFINE OFF;
 REM INSERTING into FURKAN.T_MUSTERI
 SET DEFINE OFF;
-Insert into FURKAN.T_MUSTERI (NO,ISIM,SOYISIM,TELEFON_NO,ADRES,KAYIT_TARIHI,TOPLAM_ALISVERIS_MIKTARI) values ('1','Ay˛e','G¸l','05322333212','o cadde bu sokak',to_date('19/12/2017','DD/MM/RRRR'),'0');
+Insert into FURKAN.T_MUSTERI (NO,ISIM,SOYISIM,TELEFON_NO,ADRES,KAYIT_TARIHI,TOPLAM_ALISVERIS_MIKTARI) values ('1','Ay√æe','G√ºl','05322333212','o cadde bu sokak',to_date('19/12/2017','DD/MM/RRRR'),'0');
 Insert into FURKAN.T_MUSTERI (NO,ISIM,SOYISIM,TELEFON_NO,ADRES,KAYIT_TARIHI,TOPLAM_ALISVERIS_MIKTARI) values ('11','mehmet','okur','05373620619',null,to_date('19/12/2017','DD/MM/RRRR'),'0');
 REM INSERTING into FURKAN.T_PERSONEL
 SET DEFINE OFF;
-Insert into FURKAN.T_PERSONEL (NO,ISIM,SOYISIM,TELEFON_NO,ISE_GIRIS_TARIHI,GOREV_NO,MAAS,PAROLA,ADRES,KULLANICI_ADI,TC_NO) values ('1','furkan','kayal˝','5373620617',null,'1','5000','furkan123','osmanl˝ mahallesi genÁler sokak 60/20 ATAKUM/SAMSUN','furkan',null);
-Insert into FURKAN.T_PERSONEL (NO,ISIM,SOYISIM,TELEFON_NO,ISE_GIRIS_TARIHI,GOREV_NO,MAAS,PAROLA,ADRES,KULLANICI_ADI,TC_NO) values ('5','Furkan','Kayal˝','05373620617',to_date('20/12/2017','DD/MM/RRRR'),'2','3000','furkan123','asdasdasdasdasd','Furkankyl','38548128986');
-Insert into FURKAN.T_PERSONEL (NO,ISIM,SOYISIM,TELEFON_NO,ISE_GIRIS_TARIHI,GOREV_NO,MAAS,PAROLA,ADRES,KULLANICI_ADI,TC_NO) values ('2','hasan','h¸seyin','5343210617',null,'2','5000','hasan123','liseli mahallesi genÁler sokak 60/20 ›LKADIM/SAMSUN','hasan',null);
+Insert into FURKAN.T_PERSONEL (NO,ISIM,SOYISIM,TELEFON_NO,ISE_GIRIS_TARIHI,GOREV_NO,MAAS,PAROLA,ADRES,KULLANICI_ADI,TC_NO) values ('1','furkan','kayal√Ω','5373620617',null,'1','5000','furkan123','osmanl√Ω mahallesi gen√ßler sokak 60/20 ATAKUM/SAMSUN','furkan',null);
+Insert into FURKAN.T_PERSONEL (NO,ISIM,SOYISIM,TELEFON_NO,ISE_GIRIS_TARIHI,GOREV_NO,MAAS,PAROLA,ADRES,KULLANICI_ADI,TC_NO) values ('5','Furkan','Kayal√Ω','05373620617',to_date('20/12/2017','DD/MM/RRRR'),'2','3000','furkan123','asdasdasdasdasd','Furkankyl','38548128986');
+Insert into FURKAN.T_PERSONEL (NO,ISIM,SOYISIM,TELEFON_NO,ISE_GIRIS_TARIHI,GOREV_NO,MAAS,PAROLA,ADRES,KULLANICI_ADI,TC_NO) values ('2','hasan','h√ºseyin','5343210617',null,'2','5000','hasan123','liseli mahallesi gen√ßler sokak 60/20 √ùLKADIM/SAMSUN','hasan',null);
 REM INSERTING into FURKAN.T_SATIS
 SET DEFINE OFF;
-Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('8',to_date('20/12/2017','DD/MM/RRRR'),'5','1','kredi Kart˝');
+Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('8',to_date('20/12/2017','DD/MM/RRRR'),'5','1','kredi Kart√Ω');
 Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('1',to_date('19/12/2017','DD/MM/RRRR'),'1','1','kart');
 Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('9',to_date('20/12/2017','DD/MM/RRRR'),'1','5','Nakit');
 Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('10',to_date('20/12/2017','DD/MM/RRRR'),'1','5','Nakit');
-Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('11',to_date('20/12/2017','DD/MM/RRRR'),'5','1','kredi Kart˝');
-Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('12',to_date('20/12/2017','DD/MM/RRRR'),'5','1','kredi Kart˝');
+Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('11',to_date('20/12/2017','DD/MM/RRRR'),'5','1','kredi Kart√Ω');
+Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('12',to_date('20/12/2017','DD/MM/RRRR'),'5','1','kredi Kart√Ω');
 Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('13',to_date('20/12/2017','DD/MM/RRRR'),'1','5','Nakit');
 Insert into FURKAN.T_SATIS (NO,TARIH,PERSONEL_NO,MUSTERI_NO,ODEME_TURU) values ('14',to_date('20/12/2017','DD/MM/RRRR'),'1','5','Nakit');
 REM INSERTING into FURKAN.T_STOK
@@ -246,7 +248,7 @@ Insert into FURKAN.T_URUN (NO,ISIM,GRUP_NO,ALIS_FIYAT,SATIS_FIYAT,KDV) values ('
 Insert into FURKAN.T_URUN (NO,ISIM,GRUP_NO,ALIS_FIYAT,SATIS_FIYAT,KDV) values ('12312','furkan','3','32','128','1');
 REM INSERTING into FURKAN.T_URUN_GRUP
 SET DEFINE OFF;
-Insert into FURKAN.T_URUN_GRUP (NO,ISIM) values ('1','Souk iÁecekler');
+Insert into FURKAN.T_URUN_GRUP (NO,ISIM) values ('1','So√∞uk i√ßecekler');
 Insert into FURKAN.T_URUN_GRUP (NO,ISIM) values ('2','manav');
 Insert into FURKAN.T_URUN_GRUP (NO,ISIM) values ('3','patates');
 --------------------------------------------------------
@@ -465,11 +467,11 @@ END;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE PROCEDURE "FURKAN"."KAMPANYAGUNCELLE" (p_no IN NUMBER,p_baslang˝c_tarihi IN VARCHAR2,p_bitis_tarihi IN VARCHAR2,p_aciklama IN VARCHAR2,p_en_dusuk_alisveris IN NUMBER)
+  CREATE OR REPLACE PROCEDURE "FURKAN"."KAMPANYAGUNCELLE" (p_no IN NUMBER,p_baslang√Ωc_tarihi IN VARCHAR2,p_bitis_tarihi IN VARCHAR2,p_aciklama IN VARCHAR2,p_en_dusuk_alisveris IN NUMBER)
 IS
 BEGIN
     UPDATE T_KAMPANYA 
-    SET BASLANGIC_TARIHI = to_date(p_baslang˝c_tarihi) ,
+    SET BASLANGIC_TARIHI = to_date(p_baslang√Ωc_tarihi) ,
         BITIS_TARIHI = to_date(p_bitis_tarihi),
         ACIKLAMA = p_aciklama,
         EN_DUSUK_ALISVERIS_MIKTARI = p_en_dusuk_alisveris
