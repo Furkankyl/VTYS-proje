@@ -23,7 +23,7 @@ public class Database {
     public static void connectDb(){
         try{
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","deneme","deneme");
+            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","furkan","furkan");
             Statement statement = connection.createStatement();
             System.out.println("Veri tabanına bağlanıldı!");
         }catch(ClassNotFoundException | SQLException e){
